@@ -1,0 +1,5 @@
+steps:
+ - label: run the plugin
+   command: echo
+   plugins: 
+    ${BUILDKITE_REPO}#${BUILDKITE_COMMIT}: ~
